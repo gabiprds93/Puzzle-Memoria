@@ -1,0 +1,48 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1
+{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+#contenedor
+{
+    width: 70%;
+    height: auto;
+    margin: 20px auto;
+}
+.caja
+{
+    width: 22%;
+    height: 137px;
+    background-color: #ffeecc;
+    border: 1px solid coral;
+    border-radius: 20px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.caja:hover
+{
+    cursor: pointer;
+}
+.ocultar
+{
+    background-image: "";
+}
+.desaparecer
+{
+    visibility: hidden;
+}
